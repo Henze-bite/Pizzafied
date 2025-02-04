@@ -1,0 +1,157 @@
+
+      body{
+            font-family: sans-serif;
+      }
+      .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px 50px;
+            max-width: 100%;
+            width: 400px;
+            height: auto;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.5);            
+
+      }
+      .inputcontainer1,.inputcontainer2,.inputcontainer3{
+            position: relative;
+      }
+      .head{
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            /* border: 1px solid black; */
+      }
+      #placeholder{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            background-color: transparent;
+            padding: 0 5px;
+            color: #999;
+            transition: 0.3s;
+            pointer-events: none;
+      }
+      input:focus + #placeholder,
+      input:not(:placeholder-shown) + #placeholder {
+            top: -15px;
+            left: 10px;
+            font-size: 20px;
+            color: white !important;
+            font-weight: bold;
+      }
+      h2{
+            font-size: 40px;
+            padding: 0;
+            margin: 0;
+      }
+      .main{
+            position: relative;
+            margin-bottom: 20px;
+      }
+      input{
+            border-radius: 10px;
+            outline: none;
+      }
+      input[type="text"],[type="password"],[type="email"]{
+            display: block;
+            margin: 40px 0;
+            line-height: 3.5em;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 15px;
+      }
+      .btn{
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: white;
+      }
+      .btn a{
+           color: rgb(255, 226, 226); 
+           font-weight: bold;
+      }
+      #btnregister{
+            width: 100%;
+            box-sizing: border-box;
+            height: 3em;
+            margin-bottom: 20px;
+            font-family: sans-serif;
+            font-weight: 1000;
+            font-size: 20px;
+            color: white;
+            background-color: #333;
+            transition: 0.5s;
+      }
+      #btnregister:hover,#btngoogle:hover,#btnlogin:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+      }
+      #btngoogle{
+            border: 1px solid black;
+            text-align: center;
+            height: 3em;
+            font-size: 20px;
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            background-image: url(img/googlelogo.png);
+            background-size: 8em;
+            background-position: center left;
+            background-repeat: no-repeat;
+            width: 100%;
+            box-sizing: border-box;
+            transition: 0.5s;
+      }
+      fieldset{
+            padding: 0;
+            margin: 20px 0;
+            border: none !important;
+            border-top: 2px solid white !important;
+      }
+      legend{
+            font-size: 25px;
+            padding: 10px;
+            color: white !important;
+      }
+      #hr{
+            border: 1px solid;
+            margin-top: 30px;
+      }
+      .blurbackground{
+            background-image: url(img/mybackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100em; 
+            height: 100vh;
+            background-position: center center;
+            filter: blur(5px);
+      }
+      .mainpage button{
+            position: absolute;
+            border: none;
+            top: 10px;
+            padding: 20px;
+            max-width: 150px;
+            width: 100%;
+            height: 100px;
+            border-radius: 20px;
+            transition: 0.3s;
+            background-color:rgba(0, 0, 0, 0.1);
+            background-image: url(img/pizzalogo.png);
+            background-size: 5em;
+            background-position: center center;
+            background-repeat: no-repeat;
+      }
+      .mainpage button:hover{
+            transform: scale(1.3);
+            translate: 25% 25%;
+            cursor: pointer;
+      }
+
+
+      
+
